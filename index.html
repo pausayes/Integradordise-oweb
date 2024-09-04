@@ -16,85 +16,124 @@
             font-family: 'Cuprum', sans-serif;
         }
     </style>
-
 </head>
 <body>
-        <div class="wrapper">
-            <header class="header-mobile">
+    <div class="wrapper">
+        <header class="header-mobile">
+            <a href="index.html" class="logo">
+                <img src="img/hero y logo/logo.png" alt="ETERNAL Y2K" class="logo-imagen">
+            </a>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="open-menu">
+                <i class="bi bi-list"></i>
+            </label>
+        </header>
+        
+        <aside>
+            <label for="menu-toggle" class="close-menu">
+                <i class="bi bi-x"></i>
+            </label>
+            <header>
                 <a href="index.html" class="logo">
                     <img src="img/hero y logo/logo.png" alt="ETERNAL Y2K" class="logo-imagen">
                 </a>
-                <button class="open-menu" id="open-menu">
-                    <i class="bi bi-list"></i>
-                </button>
             </header>
-            <aside>
-                <button class="close-menu" id="close-menu">
-                    <i class="bi bi-x"></i>
-                </button>
-                <header>
-                    <a href="index.html" class="logo">
-                        <img src="img/hero y logo/logo.png" alt="ETERNAL Y2K" class="logo-imagen">
-                    </a>
-                </header>
-                <nav>
-                    <ul class="menu">
-                        <li><button id="Todos los productos" class="boton-menu boton-categoria active"><i class="bi bi-arrow-through-heart-fill"></i> Todos los productos</button></li>
-                        <li><button id="Partes de arriba" class="boton-menu boton-categoria"><i class="bi bi-arrow-through-heart"></i> Partes de abajo </button></li>
-                        <li><button id="Partes de abajo" class="boton-menu boton-categoria"><i class="bi bi-arrow-through-heart"></i> Partes de arriba </button></li>
-                        <li><button id="Calzados" class="boton-menu boton-categoria"><i class="bi bi-arrow-through-heart"></i> Calzados </button></li>
-                        <li><a class="boton-menu boton-carrito" href="./carrito.html"><i class="bi bi-cart"></i> Carrito <span id="numerito" class="numerito">0</span></a></li>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#" class="boton-menu boton-categoria active"><i class="bi bi-arrow-through-heart-fill"></i> Todos los productos</a></li>
+                    <li><a href="#" class="boton-menu boton-categoria"><i class="bi bi-arrow-through-heart"></i> Partes de abajo </a></li>
+                    <li><a href="#" class="boton-menu boton-categoria"><i class="bi bi-arrow-through-heart"></i> Partes de arriba </a></li>
+                    <li><a href="#" class="boton-menu boton-categoria"><i class="bi bi-arrow-through-heart"></i> Calzados </a></li>
+                    <li><a class="boton-menu boton-carrito" href="./carrito.html"><i class="bi bi-cart"></i> Carrito <span id="numerito" class="numerito">0</span></a></li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2024 ETERNAL Y2K</p>
+            </footer>
+        </aside>
 
-                    </ul>
-
-                </nav>
-                <footer>
-                    <p class="texto-footer">© 2024 ETERNAL Y2K</p>
-                </footer>
-
-            </aside>
-
-            <main>
-                <section class="hero">
-                    <div class="hero-content">
-                        <h2>Explore Our Collection</h2>
-                    
-                    </div>
-                </section>
-
-                <section class="about-us">
-                    <h2>About Us</h2>
-                    <p>Our store celebrates 2000s fashion with an exclusive selection of products. We strive to offer you quality and style in every piece, ensuring a unique shopping experience.</p>
-                </section>
-
-                <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
-                <div id="contenedor-productos" class="contenedor-productos">
-                    
-
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Explore Our Collection</h2>
                 </div>
+            </section>
 
-                <section class="contacto">
-                    <h2>Contáctanos</h2>
-                    <div class="contacto-links">
-                        <a href="https://www.instagram.com/ETERNAL2YK" target="_blank" class="contacto-link">
-                            <i class="bi bi-instagram"></i> Instagram
-                        </a>
-                        <a href="https://wa.me/1234567890" target="_blank" class="contacto-link">
-                            <i class="bi bi-whatsapp"></i> WhatsApp
-                        </a>
-                        <a href="mailto:ETERNAL2YK@gmail.com" class="contacto-link">
-                            <i class="bi bi-envelope"></i> Email
-                        </a>
+            <section class="about-us">
+                <h2>About Us</h2>
+                <p>Our store celebrates 2000s fashion with an exclusive selection of products. We strive to offer you quality and style in every piece, ensuring a unique shopping experience.</p>
+            </section>
+
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <div class="productos">
+                    <!-- Producto 1 -->
+                    <div class="producto">
+                        <img src="img/Partes de abajo/pollera.jpg" alt="Pollera" class="producto-imagen">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Pollera</h3>
+                            <button class="producto-agregar">Agregar al carrito</button>
+                        </div>
                     </div>
-                </section>
+                    <!-- Producto 2 -->
+                    <div class="producto">
+                        <img src="img/Partes de arriba/remera.jpg" alt="Remera" class="producto-imagen">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Remera</h3>
+                            <button class="producto-agregar">Agregar al carrito</button>
+                        </div>
+                    </div>
+                    <!-- Producto 3 -->
+                    <div class="producto">
+                        <img src="img/Partes de arriba/remera3.jpg" alt="Remera 3" class="producto-imagen">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Remera 3</h3>
+                            <button class="producto-agregar">Agregar al carrito</button>
+                        </div>
+                    </div>
+                    <!-- Producto 4 -->
+                    <div class="producto">
+                        <img src="img/Partes de abajo/pollera4.jpg" alt="Pollera 4" class="producto-imagen">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Pollera 4</h3>
+                            <button class="producto-agregar">Agregar al carrito</button>
+                        </div>
+                    </div>
+                    <!-- Producto 5 -->
+                    <div class="producto">
+                        <img src="img/Partes de arriba/remera2.jpg" alt="Remera 2" class="producto-imagen">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Remera 2</h3>
+                            <button class="producto-agregar">Agregar al carrito</button>
+                        </div>
+                    </div>
+                    <!-- Producto 6 -->
+                    <div class="producto">
+                        <img src="img/Partes de abajo/pollera2.jpg" alt="Pantalon" class="producto-imagen">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Pantalon </h3>
+                            <button class="producto-agregar">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
 
-            </main>
-
-        </div>
+            <section class="contacto">
+                <h2>Contáctanos</h2>
+                <div class="contacto-links">
+                    <a href="https://www.instagram.com/ETERNAL2YK" target="_blank" class="contacto-link">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                    <a href="https://wa.me/1234567890" target="_blank" class="contacto-link">
+                        <i class="bi bi-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="mailto:ETERNAL2YK@gmail.com" class="contacto-link">
+                        <i class="bi bi-envelope"></i> Email
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
-
-<script src="script.js"></script>
-<script src="menu.js"></script>
-
-
 </html>
